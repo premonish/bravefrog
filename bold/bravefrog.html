@@ -1,0 +1,459 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <title>
+      
+        &middot; BraveFrog &middot; 
+      
+    </title>
+
+    
+      <link href="http://fonts.googleapis.com/css?family=Lora:400,400italic|Roboto:100,300,400,700" rel="stylesheet">
+      <link href="../assets/css/toolkit-bold.bravefrog.css" rel="stylesheet">
+      <link href="../assets/css/bravefrog.css" rel="stylesheet">
+    
+
+    
+
+    <style>
+      /* note: this is a hack for ios iframe for bootstrap themes shopify page */
+      /* this chunk of css is not part of the toolkit :) */
+      /* …curses ios, etc… */
+      @media (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+        body {
+          width: 1px;
+          min-width: 100%;
+          *width: 100%;
+        }
+        #stage {
+          height: 1px;
+          overflow: auto;
+          min-height: 100vh;
+          -webkit-overflow-scrolling: touch;
+        }
+      }
+    </style>
+  </head>
+
+
+<body>
+  
+
+
+
+<!-- <div class="stage-shelf hidden" id="sidebar">
+  <ul class="nav nav-bordered nav-stacked flex-column">
+    <li class="nav-header"><small>EXAMPLES</small></li>
+    <li class="nav-item">
+      <a class="nav-link active" href="../bold/index.html">Bold</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../index.html">Startup</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../minimal/index.html">Minimal</a>
+    </li>
+
+    <li class="nav-divider"></li>
+
+    <li class="nav-header"><small>Sections</small></li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="#grid" data-target="#stage" data-toggle="stage">Grid</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#chainz" data-target="#stage" data-toggle="stage">2 Chainz</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#pricing" data-target="#stage" data-toggle="stage">Pricing</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#footer" data-target="#stage" data-toggle="stage">About</a>
+    </li>
+
+    <li class="nav-divider"></li>
+
+    <li class="nav-header"><small>Docs</small></li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="../docs/index.html">Theme</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://getbootstrap.com">Bootstrap</a>
+    </li>
+
+  </ul>
+</div> -->
+
+
+<div class="stage" id="stage">
+
+  <div class="block block-fill-height app-block-wayne"
+       style="background-image: url(https://lh3.googleusercontent.com/_kkdi1OyTeKQRoQHHAT1gEcel0XvknEcurO86t5OgXsjXpY_SXgVyg3NxXVt6BraaJnB3tm335seW43n79aI8x36vu0B0s7Y1kZmKNQQM1I9n-dDvgKdk7Fac6GNea8gST3H5P1vUBOM5Se4NtGXyCuyouDQ3G8GZ-2XmQPoCUAF0DR2qtwP6hL2-8PF6VHylsG5zg64Pbt_OS5k2s7w0vwQC9smEdrTY_Cry4rOchHZT2iqHnWrOx6-fELDmhwCAJqTaq7yS-gzmAfuW7921t9_qz9nnF_5lgsBg8Y_js67HseIFSlGshPUTAneJ7ukoAC8ErkwSAIv0d9fBnxWsClGFamkbFcKt962j3AC9jn7dsed9Ck9vRdh9FnW_5goFus9oWEgkz4AT_9kSNwUAxL98ZpMWXJZwg21K1JeeZVWAZbdw9hlO8Z25y4KpieHDFbRupepZSK1bQ696cTIaHchbMJl3_Jya6p9wlF9xQMtXGEJRYPONYzHSE5IVV1APwPTRkEndsaYBw5VNACrZBZI7eBZzPCtZOA-5CVU7BoytvfTC4TKpiorB4YCn17Q-ezr2nPdLILkHsoEXn8FqtsgrxGivYVT7Re5Cu0=w776-h987-no)">
+
+    <!-- <button class="btn btn-link stage-toggle" data-target="#stage" data-toggle="stage">
+      <span class="icon icon-menu stage-toggle-icon"></span>
+      Menu
+    </button> -->
+
+    <div class="block-sm-middle block-xs-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <h1 class="block-title mb-4">
+              <span class="text-ribbon text-ribbon-primary">
+                <span>BraveFrog.</span>
+              </span>
+            </h1>
+            <p class="lead mt-1">
+              <span class="text-ribbon text-ribbon-primary">
+                <span>
+                  Your photography never looked better.
+                </span>
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="block block-inverse block-transparent py-0 app-block-grid">
+
+    <div class="block-bg-clip">
+      <div class="block-bg">
+        <div class="block-bg-img"></div>
+      </div>
+    </div>
+
+    <div class="container" id="grid">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="row mb-3 mb-md-5">
+            <div class="col-lg-12">
+              <div class="card card-bold card-danger mb-0 app-box-shadow">
+                <img src="https://lh3.googleusercontent.com/U4rg6y0wU6x5mhrJqAx2xZHbc0OljPeLEvJ4Hgw0SYGxw7AYSKVirv3CH2MjMl4fGZiTxBt1DigyhramdyBKqPekjfb7f1vOCloK4RvptAFVfiP3oqyIOe9X4sW6V48P0iJEWE1h3k627pUiHMh6S2zW1jOeOHb17KEgiiJG9YVPDzvaSIk7WVsYS-kVkFh3dqsCpwKXP-UCXrc_FM5u1ZDtyXnldt3yygLjUsbcTwtmbY7qaH2aolJ9RtbdhoAYWfkJv3UfVEaGeUhxEvJTm1yjX0cSTa7YM2vEOa3q_JPUvLkz8p8NzWtORPLZ4ZnBdzth0qlOR9BPh8vRm7X6aNB6FWUABVoLB7A1WPLoSDZjS7hPBtc2eIrGnaSn2kgfqSXm7L6VsntWFCA-jUMGYyJCmTY9xI04fZqkfbu1UFh5V36xHDV0AiPPy9ETiOFUTU7RI8Vy_n5YUbNW6_LsoZ4OcyZzvtDlk7krSkiZpW-ic9bijWIUCwLQ_eUC19A0HqpXMnkTaI0kK9Mgw91fGJ3DRxKc145fr-33Gz1DRdLnGkcwBO_GkzU3l9U4aJkpfVGJGNMUSiiPK_azk7rKtSNqacznyPiK2vyBcoU=w1481-h987-no">
+                <div class="card-block pb-5">
+                  <h4 class="mb-0">Buenos Aires</h4>
+                  <p class="text-serif"><em>Summer 2007</em></p>
+                  <hr>
+                  <p class="text-serif"><em>Art is everywhere you look. The whole world is your canvas, painted by your feelings.</em></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row hidden-md-down">
+            <div class="col-lg-12">
+              <img src="https://lh3.googleusercontent.com/tB_cRDUhxe1Dkid4A0cErWL4HJzZKLcbsEQlumGCfebFQzITNiWVRO7Q7h79ZQymR6k7oVDuTFGtjkAoVpOhNNTUY78XzhYuU4BSahKRA0WF7jq3IjTcO8TmvJ4bA-t0a5yDxGU_m94cgd_0jbTMtBr8TvdE4gUWSJ-fyahBfJi4wW3pbzl7blX5c7dqfOAX-3pY1RP5NSFzP2oHtBQfwlnyeXuiCAHIdtE9bxIctqg-CPYau8yjrGo1jy2imcTBgIgDAHYn6qdq1DJC5f467rYypZztsJhSKXMjDJt92eIPm1HmDBtfJprjTG-jplBmsuWJbmRFLu1uQg5biotdJIw1HCUwgAf_fp2lzn1BBPI3eS8u-c5wYNILgP69-wpq1m0wL06XCHiHuRfb3AC_mDVuDK0g1tLOjS4qutGVezXVP9VeatZIsSXTNFHxc2xzQuR02YOAg_DcG5XUz_ZU73voV8ZnLDuhbz7RaHHkVDerj1Kuu6gdlOsSzigIZXtkVhemBQD2bBVbZ0OZxuev1mv2mjILW7Ao6j1c76hI7UBKR7RlDBCZZxao7-CBifxMpL4jxkNoeCSmO3r7To-aL6Ke9eHtyXuYeZfikZ4=w1481-h987-no">
+           </div>
+          </div>
+        </div>
+        <div class="col-lg-8 col-md-6">
+          <div class="row">
+            <div class="col-lg-6 mb-3 mb-md-5">
+              <div class="app-box-shadow">
+                <img src="https://lh3.googleusercontent.com/LGLYEEIdY_6rsm4S4cFnWsJoBasrOKDyjDRQ3HanaC9h0wO5LNloHgUl_YQax3EhbZoChbGwGgBw3zUIrpGUSFdjC7f7Ygj102ziDaNYaqXsFW3Z_t5IcZ3texsyZYCY26mBkGPcig7gNyt8ScPiQcQW-acr95s3qQOHIq1zrPtpxLBiwQWI0Mu3bLOnMw1_UkmKlKE2LSpqkgffzSiwz6ahQk2T-bAYPmii5CoOwYMJHzt7_SYoJlsHj1MYa81GtxOdWRarsSjkEWKfwP9qvHTTfbG0anmvzgkFtKXWlZRlDxbeiwSyuQFAAAiQTUZwOCONtxu84IOylG7G9RM8mN6q6WdNgG071AO-jsYohwHTXuO45w7WdbpNJLGbOPiSES7BMLe_IgA580GT4CXzuXp-XokzFLnhfQ0PUW6Y8-6eEyLEVapT-fChoUwcgeOM46uFoCzEmtENve5MpVf9FzPM-XWIH7gRpzO0xt1jkl_xVh-XtiZ94WI9rhgq5ba1oPpiekuUnvKut113bOwucCmikp5y-dQUh0NAjhUWFHMAoFlGxUTfRE6vRcfVePSYhVHqcfv9I6w2H_Xpt_Mpy8fCIXmBseHGsS2okbc=w1481-h987-no">
+              </div>
+            </div>
+            <div class="col-lg-6 mb-3 mb-md-5">
+              <div class="app-box-shadow">
+                <img src="https://lh3.googleusercontent.com/hBPMa7qwFjm3W2f45U6NZBXAZhVFXgztlH2uY98jzn-JMav29bCNwDhzaEHC4ZuZwI6_5SznbSdxNP0jn0ZqdZiBPtk2LIWaH_KR5C_TJpcQr2GN7x7juNXjWZ7i5r7WCIF9V2x9jGD5IPiM6Ru80mzs0VRGzSDE_x-SZFdUKi7H1qg7aNjNWsuSpJ1OLJMlPh0-KBnoO7IM_PUNWekC9iEGn36wwIR2u3MlO-z04ZAozpHlJxN0HKoQ1gQNzoM35S70lzIccw0w__qwAy1pbr4qC2zM9Od-HIegtS7vtz2sUxK0JTcVo6enowFu2u8iMK5j8VGSpBbsqVOZXezpb5vjAp3DLt9FKDqTJIrJeWhmG5G0u44x1JwOcIBOhtUIWRuBmpICY4FKs6x6DwWepbKnRiPpRzXJmFYUXZMUL62c5pYRWY2qIbiXxGd0_Bg8Am1bZ6pOma0Xxybkkk_QtKBE6VZ8EcoulD3Lob-2w5ARhrsF3kSkXEOPzlHHXbEQqimGKcDXBSW82w-X7hjGIJKCFcm3vCCjVXT5tyBGK1vEKJjOdVsZpY4fREk6U9LxcfnchIyX6vg5ni3Fx9v9nwSJ65ITUQkZSZWHj3I=w1481-h987-no">
+              </div>
+            </div>
+          </div>
+          <div class="row hidden-md-down">
+            <div class="col-lg-12">
+              <img src="https://lh3.googleusercontent.com/vQPNo1uZAy7Rpby1d11BUVEFq_j6VdJC0asY5dKyCmD0-ZJc_6bbPCG6RefqNRGEouOPEwCkmNhHF4mVzUoQJ3Magdw_yRUWF6FNA_ythUb54yv0u_hxpaNvw5KWZXIk9CY1cHqFbGHn6HBwi19pzWWFNyiFIkjFUQhs-ZKAx1w5cG73WMDSGlUcSWU3HuygmZu-MX396HGy6HrSjdlDFc62-G4U6TC87QOcA_qO9egjGCXjhkMQMApSMgsZqik7t1_fisgQ8Ct4YVwcxmyr-7dLO52zOz3gdru7Ho6bzBCBtE9DtSxehCq2AT4RwDjrzzlZr6qG8fPFCKvbic3ZMvSZ5HrF0PJ5mHeL0nqT-M09g4OBQlS6v0D3CEz2M12l7i97owgS034rflmuG4vTbtMgDoXJDK3U2yiGctS3gqV598X7M6BDR4X9GhcrcqjwvJ_DMsnmGQzXW65k237HdV3iWgA0mVvMH--fTmfFGeSutFniBciqdvjpWZONDaqlWqcbuOGketFGsnLG1fxtdXQeREQAx9pecj1K-e_lTV8IL46j_x-8e14deeXFBMyMXF6BKQ68M0LKwbuHRLTH_Pty72D74XON83P6NZ0=w427-h285-no">
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="block block-fill-height block-transparent block-angle app-block-chainz" id="chainz">
+
+    <div class="block-bg-clip">
+      <div class="block-bg">
+        <div class="block-bg-img block-bg-img-top"
+             style="background-image: url(https://lh3.googleusercontent.com/z57vhoY9zumLFxO5CCtHk7UQAnv8l491__FThp8O3d-3vEEIEClv7WjfKnT5FtJ5cnA5cTGMqqiYXMIUatXMR-dKeiB2rqR6lfaV14LBCj_D9klE6GA8cOBJugkwpxsQTxiVztS7LxtLvbuQmN6m7I8mNDzY41DIceaNskyMl37mwdjFt_mzKpDiOP_TKQoZ2hbHPnmgMc_8PN2S1c6eC2J3WNly0JDtBjcio8qeOOe1llPeTXea7K5d3u58xYR6hcGpABbpj_FoxQWfJheNQdIAmmcb5LQVI-Im6jsmWwN3ntkO9p0HEN3ly1KTCb3GMRMAdArtphWZDB1yCsToTsqt4DX4oxQph53eZcmrreKpSChoA4vIWTPFFFYSvQYQ5HieqhDwhHAFA9R5Fzl1X1UC1B1aYUM8FXQ1qRrtvIcULIfLV2vtYfw9SYwuW9vBFt3UHjRmwy8J-h48X5VUIPrwW4unJeNTR9qj4qHcM6xirLnVRdETkPDi9bd1hXif5zyEf_NHT5lQ52eTwEQKtzYzKaDCtQzd9RcisL6xmmD_hJNMOYE2LPuN7_aZYi0mw-l3WviNKTjHmmibFcRXVPVXP9Kl4pnRobse0wc=w787-h987-no)">
+        </div>
+      </div>
+    </div>
+
+    <div class="block-sm-middle block-xs-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 offset-sm-7">
+            <h1 class="block-title mb-4">
+              <span class="text-ribbon text-ribbon-primary">
+                <span>Made with Love.</span>
+              </span>
+            </h1>
+            <p class="lead">
+              <span class="text-ribbon text-ribbon-primary">
+                <span>
+                  We make websites to make your work <strong>*POP*</strong>.
+                </span>
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="block block-fill-height block-transparent block-inverse block-angle app-block-kanye">
+    <div class="block-bg-clip">
+      <div class="block-bg">
+        <div class="block-bg-img block-bg-img-top"
+             style="background-image: url(https://lh3.googleusercontent.com/pEWqEObGLUjyQ9GtyHX3jAcrVxG6AFeB1i9DoF9EWPWygZ2PYlltpHrh1HibZDiOt8v-MRY8MtVqhs50P5TruePVHjCa0bmIY2M261SKLXZA9BLdIQ_1nfLG6_x_cMWZNHRU_mQjhX0QH0G6MVdUa0q7aBNe-GBkM826HFc14i9wOCHuYMoH9L8nlVEe1Wvm9rQKEpaAFW2O2TCwH8inFRIce0-FD2YXQw0YDBYMKW0UueZNxsPySzuKOS1vxZznpIbKXp50u34SHna_IBLCdi5O4GQ94ZzXDl_ORv-jwTwtpSRR8LSwuOVb8Zm1jgs7np2T9YLjayMNbA4TZTAkh6fjVixn16d7bP6p_FMuCOT7vSqkuLt3aSXFjm3nip-pPhkw3vyqrRmErKUz2aOgztsCUdEnrULUd_PYIyp04IZa3-1rIhtn01-tZ-oZK0OyZSFZgAhkXlW7xhCyXO-wuBjhR_zfIIEjNF2jtjetl7fWhBmJomZvRuhPL2w21WbikClfacAW2o16qBeE4mA3dJDxqLem0RgAlwsJ-syxPRYWYGP9ORGoQACmBpNBnNmKHIDe_c1ngnYlrE-BmT6wymAT0Dt6mt4W3dMJ2lc=w1481-h987-no)">
+        </div>
+      </div>
+    </div>
+
+    <div class="block-xs-middle">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <h1 class="block-title mb-4">
+              <span class="text-ribbon">
+                <span>Design WOW.</span>
+              </span>
+            </h1>
+            <p class="lead">
+              <span class="text-ribbon">
+                <span>
+                  We design because we care about you and your business.
+                </span>
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-md-8">
+            <div class="embed-responsive embed-responsive-16by9">
+              <!-- <iframe width="682" height="384" src="https://www.youtube.com/embed/Bm5iA4Zupek?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> -->
+              <iframe width="682" height="384" src="https://www.youtube.com/embed/HPJ9HtVxq3Y?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="block block-transparent block-fill-height block-angle block-app-mosdef">
+    <div class="block-bg-clip">
+      <div class="block-bg">
+        <div class="block-bg-img block-bg-img-top"
+             style="background-image: url(https://lh3.googleusercontent.com/So-ChosAJG0tKEYehdwIqKh0jyW4llNo8zzY2LRiiG8wKe0w64jSOUHzXOB7tdOdILQT03XNG59ObfJU2tNPku9-v_C1FH0TkBkqx1ABN0U7SuFDJ0DxWa2TbxLurlrnQcmr66LKZkbq1gcRii61m3CDxEIBzy5k8n1-CKI1RIRJCTh7I6bjIifQwTjeGKnhuHcq8zAwrhGU_M2iWjBlcq5MSkc_IIH2A6niobd1n4PhEK8FO-RkSoaijeqKNPelOLd0SrX0ErNuOwVaLngvvmsy0KvkQw4NxIL0AjFYkiY--eQn3z6zqXf6iUF6oSfCOA3kpSyE3RDd8JUohIuB9A-JVG85x8GQEE5Qd6jqtEnyQ4Vl6Ih-QX8dAECo2Q5GP56bjxdaPnmjjmFciGagvYZ4LJr56jI0lwMfj-FOCvKAf-Va0fdE4_GkjfwfktXr2uOP9W9FmH-Bhc5t70mNGW9QRpsBs4VLhDAnC1rOpFTFBbqORcYY-TpGFtMv0BWqQtjenUH7ih3MUluqM4RjK9wqlq--zJvvZb2VAzmiflNuvr_AVGBZ-B9sqT_bHUImnViAvSYpVjhrTJJIX3skbJz8ku40Uuy1tjiZNAI=w1481-h987-no)">
+        </div>
+      </div>
+    </div>
+
+    <div class="block-xs-middle">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 offset-md-6">
+            <h1 class="block-title mb-4">
+              <span class="text-ribbon text-ribbon-primary">
+                <span>Start a project.</span>
+              </span>
+            </h1>
+
+            <div class="text-ribbon-inputs-split">
+              <input type="text" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Name">
+              <input type="text" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Email">
+            </div>
+            <input type="text" class="h4 text-ribbon-input text-ribbon-input-half text-ribbon-primary" placeholder="Message">
+            <button type="button" class="btn btn-square btn-primary btn-lg btn-block">
+              Get a web design quote today.
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="block block-fill-height block-inverse app-block-nicki"
+       style="background-image: url(https://lh3.googleusercontent.com/lp8mYWKiSmMPZqYP1jBYMWbJWlxBMnsQqHhMtfWMosrAuZf6-umciPdfrTg8_4gcpC8uCqVeAH3jZjUB_jbq4qAStucdRt1duBoYMVe0yCwHnsDGwLtRubIAs6PHkPh3UU-BC-UYd-9KlvTOSz_utRH45yblZSOfCrJ-E2xurRTszUygrbfW35Wb65codeNz4XTENHvIx4kgxQEOOpMBUrHWox9no1tZ7B92lEvmT5wqth0o3lNtjGUJtM3XDnp3FP_8eBYHGYybsIJexOkNBF4rBL8KYuSwgwWLmX_rmaVdU4RpOlcOqkMNO4agzpo3nlcJHq3dWJ8HaWEWv6JsOxiVwzcnnlp-IrnOyjaDQ1rR4lIE8q_CljVd4kclvgkG014L773rYv2WRjXiUh5QdVIvCVBcFcMceVpCJO0ZzkIeMIY8RYfyaBLBuvRXu52UEov_kleGn85Zo3B5ibsFJOHgnqNn-WCpXluMYnykiduG2T08L83TVn8hLn-d_paly9id8rxh11H-P4D7NrDpqtfqOaaF9wZSN9uiIMtEWnwXixIkwHm0-vaETYMSxnoq0Uuaulm_9wvCYGP-kKe7g6z6ktVm28zMfEMLEPk=w1481-h987-no)"
+       id="pricing">
+    <div class="block-xs-middle">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-5">
+            <h1 class="block-title mb-4">
+              <span class="text-ribbon">
+                <span>Simple Options.</span>
+              </span></h1>
+            <p class="lead">
+              <span class="text-ribbon text-muted">
+                <span>
+                  We are ready to work with you as designers, developers, and marketers.
+                </span>
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-block">
+                <h3 class="card-title">Emerald Frog</h3>
+                <h4 class="text-muted text-serif mt-0 mb-3">
+                  <em>$800</em>
+                </h4>
+                <p class="text-serif mb-1">
+                  <em>
+                    Website creation and publishing. Designed and developed to meet your needs and desires.
+                  </em>
+                </p>
+                <hr>
+                <ul class="iconlist text-serif mb-4">
+                  <li class="active">
+                    <span class="icon icon-check"></span>
+                    <em>Web Design</em>
+                  </li>
+                  <li>
+                    <span class="icon icon-cross"></span>
+                    <em>Web Hosting</em>
+                  </li>
+                  <li>
+                    <span class="icon icon-cross"></span>
+                    <em>Marketing</em>
+                  </li>
+                </ul>
+                <button class="btn btn-secondary btn-square btn-block btn-lg">Upgrade your image</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card accent-primary">
+              <div class="card-block">
+                <h3 class="card-title">Ruby Frog</h3>
+                <h4 class="text-primary text-serif mt-0 mb-3">
+                  <em>$1,000</em>
+                </h4>
+                <p class="text-serif mb-1">
+                  <em>
+                    Get the most out of our relationship by opting into our secure hosting package.
+                  </em>
+                </p>
+                <hr>
+                <ul class="iconlist text-serif mb-4">
+                  <li class="active">
+                    <span class="icon icon-check"></span>
+                    <em>Web Design</em>
+                  </li>
+                  <li class="active">
+                    <span class="icon icon-check"></span>
+                    <em>Web Hosting</em>
+                  </li>
+                  <li>
+                    <span class="icon icon-cross"></span>
+                    <em>Marketing</em>
+                  </li>
+                </ul>
+                <button class="btn btn-primary btn-square btn-block btn-lg">Accelerate now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-block">
+                <h3 class="card-title">Blue Diamond Frog</h3>
+                <h4 class="text-muted text-serif mt-0 mb-2">
+                  <em>$1,000 + $500/month*</em>
+                </h4>
+                <p class="text-serif mb-1">
+                  <em>
+                    We are going to turbo charge your image and multiply your conversions right now.
+                  </em>
+                <hr>
+                <ul class="iconlist text-serif mb-4">
+                  <li class="active">
+                    <span class="icon icon-check"></span>
+                    <em>Web Design</em>
+                  </li>
+                  <li class="active">
+                    <span class="icon icon-check"></span>
+                    <em>Web Hosting</em>
+                  </li>
+                  <li class="active">
+                    <span class="icon icon-check"></span>
+                    <em>Marketing</em>
+                  </li>
+                </ul>
+                <button class="btn btn-secondary btn-square btn-block btn-lg">To the moon!</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="block block-inverse accent-primary" id="footer">
+    <div class="container">
+      <div class="row text-serif">
+        <!-- <div class="col-md-2 mb-4">
+          <ul class="list-unstyled list-spaced">
+            <li><h4>Tech</h4></li>
+            <li class="text-muted"><em>Overview</em></li>
+            <li class="text-muted"><em>Design</em></li>
+            <li class="text-muted"><em>Display</em></li>
+            <li class="text-muted"><em>Technology</em></li>
+          </ul>
+        </div>
+        <div class="col-md-2 mb-4">
+          <ul class="list-unstyled list-spaced">
+            <li><h4>Press</h4></li>
+            <li class="text-muted"><em>Overview</em></li>
+            <li class="text-muted"><em>Design</em></li>
+            <li class="text-muted"><em>Display</em></li>
+            <li class="text-muted"><em>Technology</em></li>
+          </ul>
+        </div>
+        <div class="col-md-2 mb-4">
+          <ul class="list-unstyled list-spaced">
+            <li><h4>Other</h4></li>
+            <li class="text-muted"><em>Overview</em></li>
+            <li class="text-muted"><em>Design</em></li>
+            <li class="text-muted"><em>Display</em></li>
+            <li class="text-muted"><em>Technology</em></li>
+          </ul>
+        </div> -->
+        <div class="col-md-6 mb-4">
+          <ul class="list-unstyled list-spaced">
+            <li><h4>Photography + Design</h4></li>
+            <li class="text-muted">
+              <em><a href="https://www.prem5.com">Prem5.com</a></em>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/tether.min.js"></script>
+    <script src="../assets/js/toolkit.js"></script>
+    <script src="../assets/js/application.js"></script>
+  </body>
+</html>
+
